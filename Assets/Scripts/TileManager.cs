@@ -12,28 +12,30 @@ public class TileManager : MonoBehaviour {
     public Color TileColor;
 
     public Vector2Int mapSize;
-
-    private Tile tmpTile;
-    private int[,] myMap;
+    
+    private float[,] dataMap;
     int width;
     int height;
 
 	void Start () {
-        createMap();
-	}
+        clearMap(true);
+    }
 
 	void Update () {
-       SetUpMap();
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            insertValue();
+        }
+
+        UpdateTileMap();
 	}
 
-    public void SetUpMap()
+    public void UpdateTileMap()
     {
-        width = mapSize.x;
-        height = mapSize.y;
 
-        if (myMap == null)
+        if (dataMap == null)
         {
-            myMap = new int[width, height];
             createMap();
         }
 
@@ -41,23 +43,33 @@ public class TileManager : MonoBehaviour {
         {
             for (int y = 0; y < height; y++)
             {
-                if (myMap[x, y] == 1)
-                {
-                    ForeMap.SetTile(new Vector3Int(x, y, 0), myTile);
-                    ForeMap.SetTileFlags(new Vector3Int(x, y, 0), TileFlags.None);
-                    ForeMap.SetColor(Position, TileColor);
-                }
+
+                ForeMap.SetTile(new Vector3Int(x, y, 0), myTile);
+                ForeMap.SetTileFlags(new Vector3Int(x, y, 0), TileFlags.None);
+                ForeMap.SetColor(new Vector3Int(x, y, 0), Color.Lerp(Color.red,Color.green,dataMap[x,y]));
+                
             }
         }
     }
 
+    private void insertValue()
+    {
+        dataMap[2, 1] = 1f;
+        print("test");
+    }
+
     private void createMap()
     {
+        width = mapSize.x;
+        height = mapSize.y;
+
+        dataMap = new float[width, height];
+
         for (int x = 0; x < width; x++)
         {
             for (int y = 0; y < height; y++)
             {
-                myMap[x, y] = 1;
+                dataMap[x, y] = 0f;
             }
 
         }
@@ -69,7 +81,7 @@ public class TileManager : MonoBehaviour {
         ForeMap.ClearAllTiles();
         if (complete)
         {
-            myMap= null;
+            dataMap = null;
         }
 
 
