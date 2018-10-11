@@ -12,6 +12,108 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-10-10T16:17:49.497-05:00
-  initializedAtString: 2018-10-10T16:15:11.766-05:00
-  entries: []
+  lastUpdatedAtString: 2018-10-10T22:49:35.206-05:00
+  initializedAtString: 2018-10-10T20:31:48.331-05:00
+  entries:
+  - path: Assets\Scripts\TileManager.cs
+    fullPath: C:\Projects\UnityProjects\VisualPotential\Assets\Scripts\TileManager.cs
+    projectPath: Assets\Scripts\TileManager.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Sprites\Square.png
+    fullPath: C:\Projects\UnityProjects\VisualPotential\Assets\Sprites\Square.png
+    projectPath: Assets\Sprites\Square.png
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\assetDatabase3
+    fullPath: C:\Projects\UnityProjects\VisualPotential\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\CurrentLayout.dwlt
+    fullPath: C:\Projects\UnityProjects\VisualPotential\Library\CurrentLayout.dwlt
+    projectPath: Library\CurrentLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\branches.yaml
+    fullPath: C:\Projects\UnityProjects\VisualPotential\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Projects\UnityProjects\VisualPotential\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Projects\UnityProjects\VisualPotential\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Projects\UnityProjects\VisualPotential\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Projects\UnityProjects\VisualPotential\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Projects\UnityProjects\VisualPotential\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\61\61ec43607d4e30948a23a6e1c834112f.info
+    fullPath: C:\Projects\UnityProjects\VisualPotential\Library\metadata\61\61ec43607d4e30948a23a6e1c834112f.info
+    projectPath: Library\metadata\61\61ec43607d4e30948a23a6e1c834112f.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\62\62b23d04ec9ccbc4db70828b858bf838
+    fullPath: C:\Projects\UnityProjects\VisualPotential\Library\metadata\62\62b23d04ec9ccbc4db70828b858bf838
+    projectPath: Library\metadata\62\62b23d04ec9ccbc4db70828b858bf838
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\62\62b23d04ec9ccbc4db70828b858bf838.info
+    fullPath: C:\Projects\UnityProjects\VisualPotential\Library\metadata\62\62b23d04ec9ccbc4db70828b858bf838.info
+    projectPath: Library\metadata\62\62b23d04ec9ccbc4db70828b858bf838.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\70\70fe5f0d8d6983b45b5471a5e9f04b83
+    fullPath: C:\Projects\UnityProjects\VisualPotential\Library\metadata\70\70fe5f0d8d6983b45b5471a5e9f04b83
+    projectPath: Library\metadata\70\70fe5f0d8d6983b45b5471a5e9f04b83
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    fullPath: C:\Projects\UnityProjects\VisualPotential\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: ProjectSettings\QualitySettings.asset
+    fullPath: C:\Projects\UnityProjects\VisualPotential\ProjectSettings\QualitySettings.asset
+    projectPath: ProjectSettings\QualitySettings.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: ProjectSettings\UnityConnectSettings.asset
+    fullPath: C:\Projects\UnityProjects\VisualPotential\ProjectSettings\UnityConnectSettings.asset
+    projectPath: ProjectSettings\UnityConnectSettings.asset
+    originalPath: 
+    status: 3
+    staged: 0
